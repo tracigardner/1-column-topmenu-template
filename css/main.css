@@ -1,6 +1,23 @@
 /* Stylesheet by quackit.com */
 /* Modified by github.com/tengrrl */
 
+/* Change the background color  */
+/* for the entire page here.    */
+div.page {
+  background-color: gray;
+  width: 100%;
+}
+
+/* Change the border color for */
+/* the centered content here.  */
+div.ex1 {
+    width: 851px;
+    margin: auto;
+    float: center;
+    border: 6px solid darkgray;
+    background-color: #FFFFFF;
+}
+
   body {
     margin:0;
     padding:0;
@@ -10,11 +27,11 @@
 
   /* Change the background image  */
   /* here. Your image should be   */
-  /* 640px wide and 283px high.   */
+  /* 815px wide and 315px high.   */
   header {
     background-image: url("../images/burruss.jpg");
-    width: auto;
-    height: 283px;
+    width: 851px;
+    height: 315px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -72,7 +89,10 @@
   }
 
 .site-footer{
-    text-align: center;
+    text-align: left;
+    font-size: small;
+    padding: 0px 7px;
+    font-style: italic;
   }
 
 .site-menu {
